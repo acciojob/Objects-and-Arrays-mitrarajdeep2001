@@ -14,11 +14,12 @@ window.team1 = team1;
 window.cap1 = cap1;
 
 
-team = players;
+const team = players;
+const team1 = [];
 for (let i = 0; i < players.length; i++) {
 	team1[i] = players[i];
 }
-
+const cap1 = {};
 for(let key in person){
 	cap1[key] = person[key];
 }

@@ -12,3 +12,13 @@ window.person = person;
 window.team = team;
 window.team1 = team1;
 window.cap1 = cap1;
+
+
+team = players;
+for (let i = 0; i < players.length; i++) {
+	team1[i] = players[i];
+}
+
+for(let key in person){
+	cap1[key] = person[key];
+}
